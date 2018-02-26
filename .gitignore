@@ -1,0 +1,6 @@
+.DS_Store
+.projectile
+node_modules/
+typings/
+index.js
+out/
