@@ -18,3 +18,8 @@ Project also includes [sinon.js](http://sinonjs.org/) for spy and stub needs.
 All of the tests run using [mocha](https://mochajs.org/) and can be started with a simple `npm run test`.
 
 In case you need a hot reload testing system, run `npm run test-watch`. When a tests file is updated, all the specs will be re-run.
+
+
+### Compile for production
+To compile the code for production purpose run `npm run production`. You'll get all your code pushed to ZIP archive in the `out/` folder.
+On the AWS Lambda functions interface, you can then upload the archive directly or push it to a S3 bucket and reference the URL to the bucket when creating the function.

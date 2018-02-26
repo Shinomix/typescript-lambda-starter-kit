@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --config scripts/webpack.development.js --output-path='.' --hot --watch",
+    "production": "webpack --config scripts/webpack.production.js --output-path='./out'",
     "test": "./node_modules/mocha/bin/mocha --require ts-node/register tests/*.spec.ts",
     "test-watch": "./node_modules/mocha/bin/mocha -w --require ts-node/register --watch-extensions ts,tsx tests/*.spec.ts"
   },
